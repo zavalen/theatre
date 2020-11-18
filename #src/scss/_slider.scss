@@ -1,0 +1,85 @@
+/* external css: flickity.css */
+
+.gallery {
+  background: #333;
+  margin-bottom: 15rem;
+}
+
+.gallery-cell {
+  width: 25%;
+  height: 50rem;
+  margin-right: 2rem;
+  min-width: 30rem;
+  counter-increment: gallery-cell;
+  object-fit: cover;
+}
+
+.gallery-cell.is-selected {
+  filter: url('https://www.figma.com/');
+}
+
+/* cell number */
+// .gallery-cell:before {
+//   display: block;
+//   text-align: center;
+//   content: counter(gallery-cell);
+//   line-height: 200px;
+//   font-size: 80px;
+//   color: white;
+// }
+
+.previous1 {
+  display: none;
+}
+
+.next1 {
+  display: none;
+}
+
+.afishaimg {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 0.5s;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.afishatext {
+  opacity: 1;
+  transition: 0.5s;
+  font-family: 'OpenSansCondensed';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  padding: 4rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.afishatextdescr {
+  opacity: 0;
+  transition: 0.5s;
+  font-family: 'OpenSansCondensed';
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  padding: 0 4rem;
+  flex: auto;
+  background-color: #333;
+}
+
+.afishaimg:hover {
+  transform: scale(1.01);
+  .afishatextdescr {
+    opacity: 1;
+  }
+}
+
+.afishabtn {
+  margin: 4rem;
+}

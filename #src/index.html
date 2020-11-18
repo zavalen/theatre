@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>Большой театр</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  </head>
+  <body>
+    <div class="page">
+      @@include('_header.html')
+      <main class="main">
+        <section id="about" class="about container">
+          <h2><span>о</span> театре</h2>
+          <div class="columns">
+            <div class="column">
+              <h3>Самый лучший театр СПБ</h3>
+              <p>
+                Как свидетельствуют архивные документы, первое каменное здание
+                Большого театра начали возводить в 1775 году по проекту Антонио
+                Ринальди. В дальнейшем, после того как Ринальди упал с лесов и
+                не мог лично наблюдать за ходом работ, Екатерина II поручила
+                немецкому театральному декоратору и архитектору Людвигу Филиппу
+                Тишбейну создать новый проект театра, который и был воплощён
+                архитекторами Ф. В. фон Бауром и М. А. Деденёвым. 
+              </p>
+            </div>
+            <div class="column column_center">
+              <h3>немного о цифрах</h3>
+              <img src="./img/armchair.svg" alt="" />
+              <p class="strong"><span>1600</span> посадочный мест</p>
+              <img src="./img/Kulis.svg" alt="" />
+              <p class="strong"><span>350</span> лет истории</p>
+            </div>
+            <div class="column column_center">
+              <img src="./img/theatre.jpg" alt="" />
+            </div>
+          </div>
+        </section>
+        <section id="staging" class="staging">
+          <h2><span>наши</span> постановки</h2>
+     <!-- Flickity HTML init -->
+<div class="gallery js-flickity">
+  <div class="gallery-cell">
+    <div class="afishaimg" style="background-image: url(./img/stage2.jpg);" >
+      <div class="afishatext">ОСКАР 2020</div>
+      <button class="afishabtn">Купить билет</button>
+    </div>
+  </div>
+  <div class="gallery-cell">
+    <div class="afishaimg" style="background-image: url(./img/stage1.jpg);" >
+      <div class="afishatext">Щелкунчик</div>
+      <button class="afishabtn">Купить билет</button>
+
+</div>
+</div>
+
+<div class="gallery-cell">
+  <div class="afishaimg" style="background-image: url(./img/stage3.jpg);" >
+    <div class="afishatext">Жизель</div>
+    <button class="afishabtn">Купить билет</button>
+</div>
+</div>
+<div class="gallery-cell">
+  <div class="afishaimg" style="background-image: url(./img/stage4.jpg);" >
+    <div class="afishatext">золотой грамофон</div>
+    <button class="afishabtn">Купить билет</button>
+</div>
+</div>
+</div>
+    
+          <div class="rating container">
+            <div class="years">2018</br>2019</br>2020</div>
+            <div class="stars">
+              <img class="star" src="./img/star.svg" alt="star" />
+              <img class="star" src="./img/star.svg" alt="star" />
+              <img class="star" src="./img/star.svg" alt="star" />
+              <img class="star" src="./img/star.svg" alt="star" />
+              <img class="star" src="./img/star.svg" alt="star" />
+            </br>Лучший театр</br>
+              по мнению театральных критиков Парижа
+            </div>
+          </div>
+        </section>
+        <section class="partners container" id="partners">
+          <h2><span>партнёры</span> театра</h2>
+          <div class="partners__block">
+            <img class="partners__item" src="./img/gazprom.png" />
+            <img class="partners__item" src="./img/gazprom.png" />
+            <img class="partners__item" src="./img/gazprom.png" />
+            <img class="partners__item" src="./img/gazprom.png" />
+            <img class="partners__item" src="./img/gazprom.png" />
+            <img class="partners__item" src="./img/gazprom.png" />
+            <img class="partners__item" src="./img/gazprom.png" />
+            <img class="partners__item" src="./img/gazprom.png" />
+          </div>
+        </section>
+      </main>
+      @@include('_footer.html')
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
