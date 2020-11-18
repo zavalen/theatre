@@ -79,7 +79,8 @@ footer {
 }
 
 .copyrights {
-  margin-top: 8rem;
+  padding-top: 4rem;
+  margin-top: 4rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -87,4 +88,8 @@ footer {
   height: 8rem;
   border-top: 1px solid #565656;
   color: #989898;
+}
+
+.copyrights__right {
+  padding-bottom: 2rem;
 }

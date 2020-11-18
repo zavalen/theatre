@@ -1012,7 +1012,8 @@ footer {
 }
 
 .copyrights {
-  margin-top: 8rem;
+  padding-top: 4rem;
+  margin-top: 4rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1027,6 +1028,10 @@ footer {
   height: 8rem;
   border-top: 1px solid #565656;
   color: #989898;
+}
+
+.copyrights__right {
+  padding-bottom: 2rem;
 }
 
 /**
@@ -2175,7 +2180,7 @@ textarea:focus {
           flex-grow: 1;
   width: 33.3%;
   min-width: 30rem;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
 }
 
 .column:last-child {
